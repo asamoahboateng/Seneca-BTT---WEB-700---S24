@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&family=Playwrite+CU:wght@100..400&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+.bg-light{
+    box-shadow: 2px 5px #eddd7d;
+    /* background-image: linear-gradient(to bottom right, rgb(89, 230, 243), rgb(162, 197, 202)); */
+    background-image: linear-gradient(to bottom right, rgb(99 101 239), rgb(56 160 240));
+}
+.navbar-light .navbar-brand,.navbar-brand{
+    font-family: 'Playwrite Cu', sans-serif;
+    text-shadow: 0.5px 0.5px #ed4141;
+    color: rgb(255 206 0);
+    font-style: normal;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-brand:hover {
+    font-family: 'Playwrite Cu', sans-serif;
+    text-shadow: 0.5px 0.5px #ed4141;
+    color: rgb(255 206 0);
+    font-style: normal;
+    font-weight: 500;
+}
+.navbar-nav a {
+    font-family: 'Grenze Gotisch', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #ff0000;
+    text-decoration: underline;
+}
+.navbar-light .navbar-nav .active .nav-link{
+    color: #eefaf8;
+}
+body {
+    background-image: linear-gradient(to bottom right, rgb(193, 238, 242), rgb(241, 226, 210));
+    background-image: url('https://images.unsplash.com/photo-1457364887197-9150188c107b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+main {
+    background-color: #d5d6de85;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+table {
+    border: 2px solid rgb(0, 255, 238);
+}
+tbody tr th{
+    background-color: #eefaf8;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #6041ed;
+}
+form {
+    margin-top: 70px;
+    width: 90%;
+}
+
+form fieldset {
+    border: 2px double rgb(102, 11, 214);
+    padding: 50px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+form legend {
+    font-style: 'Rajdhani';
+    width: 40%;
+    text-align: center;
+    color: blueviolet;
+}
+
+form .btn-primary {
+    background-color: chartreuse;
+    color: black;
+}
+form .btn-primary:hover{
+    /* background-color: rgb(94, 255, 0); */
+    color: rgb(209, 19, 34);
+}
