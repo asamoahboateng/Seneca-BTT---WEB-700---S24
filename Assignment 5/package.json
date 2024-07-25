@@ -1,0 +1,25 @@
+{
+  "name": "assignment5-ktab",
+  "version": "1.0.0",
+  "description": "assignment 5 in web700 course programme by ktasamoah-boateng",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "assignemt3",
+    "assignment 4",
+    "assignment 5",
+    "express-handlebars",
+    "server",
+    "express",
+    "html"
+  ],
+  "author": "kwame twum asamoah boateng",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-handlebars": "^6"
+  }
+}
