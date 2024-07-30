@@ -198,7 +198,7 @@ app.get("/course/delete/:id", (req,res)=> {
 
 //delete student
 app.get("/student/delete/:studentNum", (req,res)=> {
-    const student_no = req.params.id;
+    const student_no = req.params.studentNum;
     dataCollection.deleteStudentByNum(student_no)
     .then(
         // (course_data) => res.send(course_data) 
